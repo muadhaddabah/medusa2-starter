@@ -33,7 +33,7 @@ export const Hero: FC<{
           </div>
 
           {!!actions?.length && (
-            <ActionList actions={actions} className={clsx('mt-8 lg:mt-10 flex-col', actionsClassName)} />
+            <ActionList actions={actions} className={clsx('mt-8 lg:mt-10 ', actionsClassName)} />
           )}
         </div>
       </Container>

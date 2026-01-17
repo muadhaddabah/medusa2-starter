@@ -22,41 +22,41 @@ export default function IndexRoute() {
       <Hero
         className="h-[800px] !max-w-full -mt-[calc(var(--mkt-header-height)+3rem)] md:-mt-[calc(var(--mkt-header-height-desktop)+2rem)] pt-[var(--mkt-header-height)] md:pt-[var(--mkt-header-height-desktop)]"
         content={
-          <div className="text-center w-full space-y-9">
-            <h4 className="font-italiana text-2xl">COFFEE & COMMUNITY</h4>
-            <h1 className="text-8xl font-aboreto">BARRIO</h1>
-            <p className="max-w-prose mx-auto text-lg">
-              Discover our artisan-roasted coffee, crafted with care and delivered to your door. At Barrio, we’re more
-              than a coffee roastery—we’re&nbsp;a&nbsp;neighborhood.
+          <div className="text-left w-full space-y-9">
+            <h4 className="font-italiana text-2xl">CULTURE & HERITAGE</h4>
+            <h1 className="text-8xl font-aboreto">LEVANT PANTRY</h1>
+            <p className="max-w-prose text-lg">
+              Explore the essential flavors of the Levant—from aromatic spices to delicious sweets—all hand-selected to bring authentic tradition to your table.
             </p>
           </div>
         }
         actions={[
           {
-            label: 'Discover Our Blends',
+            label: 'Discover Our Pantry',
             url: '/categories/blends',
           },
         ]}
         image={{
-          url: '/assets/images/barrio-banner.png',
+          url: '/assets/images/gemini-banner-Edited.jpg',
           alt: 'Barrio background',
         }}
       />
 
       <Container className="p-14 md:pt-1 lg:pt-24 relative flex flex-col-reverse items-center lg:flex-row">
-        <div className="md:absolute w-80 md:left-4 md:-top-[240px] lg:left-20 lg:w-[420px]">
-          <Image
+        {/* <div className="md:absolute w-80 md:left-4 md:-top-[240px] lg:left-20 lg:w-[420px]"> */}
+          {/* <Image
             src="/assets/images/header-image-1.png"
             loading="lazy"
             alt="Barrio background"
             height={520}
             width={420}
-          />
-        </div>
+          /> */}
+        {/* </div> */}
 
         <div className="md:w-full flex flex-col justify-center max-md:items-center">
-          <div className="w-full flex text-center md:text-left">
-            <h2 className="mx-auto md:ml-[32%] lg:ml-[37%] xl:ml-[30%] lg:mr-auto text-6xl sm:text-7xl lg:text-8xl xl:text-9xl font-ballet mt-12">
+          <div className="flex text-left">
+            {/* <h2 className="mx-auto md:ml-[32%] lg:ml-[50%] xl:ml-[30%] lg:mr-auto text-6xl sm:text-7xl lg:text-8xl xl:text-9xl font-ballet mt-12"> */}
+            <h2 className="mx-auto   text-6xl sm:text-7xl lg:text-8xl xl:text-9xl font-ballet mt-12">
               Building Community
             </h2>
           </div>

@@ -5,3 +5,4 @@
 
 # ~ root coffee-pantry-2.0
     yarn dev
+    as
